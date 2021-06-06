@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+header {
+  background-color: blue;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: fixed;
+  background-color: #333;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.1rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.courses {
+  text-align: center;
+  height: 100%;
+  margin-bottom: 100px;
+}
+.heading {
+  font-family: Plusjakartasans, sans-serif;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 700;
+  color: #333;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  margin-top: 5px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.main {
+  color: white;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  background-image: linear-gradient(310deg, #2278ff, #0659dd);
+  float: left;
+}
+.para h1 {
+  text-align: center;
+  font-size: 3.7em;
+  margin-bottom: 6px;
+  margin-top: 5px;
+}
+.para {
+  margin-bottom: 50px;
+  margin-top: 80px;
+  width: 40%;
+  text-align: center;
+  font-size: 1.1em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  float: left;
+}
+.para .btn {
+  margin-top: 1rem;
+  height: 3rem;
+  width: 15rem;
+  color: #0057e0;
+  font-family: Plusjakartasans, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.image {
+  float: right;
+  overflow: hidden;
+  width: 60%;
+  height: 650px;
+}
+.hero-image {
+  position: relative;
+  left: 133px;
+  top: -600px;
+  right: -41%;
+  bottom: 0;
+}
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.div-block-3 {
+  position: relative;
+  left: 161px;
+  top: 60px;
+  overflow: visible;
+  width: 700px;
+  height: 700px;
+  border: 90px solid #1252b8;
+  border-radius: 500%;
+  color: #1252b8;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
