@@ -134,5 +134,5 @@ img {
   border-radius: 500%;
   color: #1252b8;
   -o-object-fit: fill;
-  object-fit: fill;
+  object-fit: fill; 
 }
